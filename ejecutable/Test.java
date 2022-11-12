@@ -33,7 +33,9 @@ public class Test
         else
         {
             System.out.println("Las coordenadas son diferentes.");
-        }    
+        } 
+        
+            System.out.println("La distancia entre los puntos es: "  );
             
         }
 

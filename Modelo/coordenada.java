@@ -56,19 +56,19 @@ public class coordenada
         this.y2 = y2;
          if(x<x2 & y<y2)
         {
-            d = Math.sqrt(((x2-x)(x2-x))+((y2-y)(y2-y)));
+            double d = Math.sqrt(((x2-x)(x2-x))+((y2-y)(y2-y)));
         }
         else if(x>x2 & y<y2)
         {
-            d = Math.sqrt(((x-x2)(x-x2))+((y2-y)(y2-y)));
+            double d = Math.sqrt(((x-x2)(x-x2))+((y2-y)(y2-y)));
         }
         else if(x>x2 & y>y2)
         {
-            d = Math.sqrt(((x-x2)(x-x2))+((y-y2)(y-y2)));
+            double d = Math.sqrt(((x-x2)(x-x2))+((y-y2)(y-y2)));
         }
         else
         {
-            d = Math.sqrt(((x2-x)(x2-x))+((y-y2)(y-y2)));
+            double d = Math.sqrt(((x2-x)(x2-x))+((y-y2)(y-y2)));
         }
         return d;
     }
